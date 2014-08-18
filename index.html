@@ -1,0 +1,32 @@
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Y'all Tube</title>
+
+  <style>
+  input { width: 200px; margin-bottom: 1em;}
+  .error {color:red; margin-left: 1em;}
+  .video { display:inline-block; margin:.25rem}
+  #linkInput { width: 250px}
+  </style>
+</head>
+<body>
+
+  <h1>Y'all Tube</h1>
+  <p>Y'all enter a YouTube link. This page will play all of the videos at the same time.</p>
+
+  <form id="linkForm">
+    <input type="text" id="linkInput" placeholder="YouTube link">
+    <input type="submit" class="linkSubmit" value="Add Link">
+    <span class="error"></span>
+  </form>
+
+  <div id="linksContainer"></div>
+
+  <script src="https://cdn.firebase.com/js/client/1.0.19/firebase.js"></script>
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+  <script src="./scripts/yalltube.js"></script>
+  <script src="./scripts/xss.js"></script>
+
+</body>
+</html>

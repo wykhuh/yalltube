@@ -1,0 +1,22 @@
+{
+  "name": "Y'all Tube",
+  "version": "0.0.0",
+  "authors": [
+    "wykhuh <wykhuh@users.noreply.github.com>"
+  ],
+  "description": "Collaborative app that displays multiple Youtube videos at the same time. Powered by Firebase.",
+  "main": "index.html",
+  "license": "MIT",
+  "homepage": "nerdycreativity.com",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "xss": "https://github.com/leizongmin/js-xss.git#~0.1.9",
+    "jquery": "~2.1.1"
+  }
+}
