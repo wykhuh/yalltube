@@ -6,7 +6,7 @@ Y'all enter a YouTube link. This page will play all of the videos at the same ti
 * Goal: Use Firebase to create a collaborative project that should not be collaborative.
 * Tech used: JavaScript, [Firebase](http://firebase.com), [jQuery](http://jquery.com), [DomPurify](https://github.com/cure53/DOMPurify).
 * Demo: [Y'all Tube Demo](http://nerdycreativity.com/yalltube.html)
-* Blog post: [Minihackathon #3](http://nerdycreativity.com/2014/08/16/minihackathon-3)
+* Blog post: [Minihackathon #3](http://nerdycreativity.com/2014/08/24/minihackathon-3/)
 
 #Install
 
